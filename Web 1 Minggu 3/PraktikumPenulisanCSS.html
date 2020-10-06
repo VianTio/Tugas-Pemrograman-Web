@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Contoh Penulisan CSS</title>
+    <meta name="description" content="Web Programming">
+    <meta name="keywords" content="Penulisan CSS">
+    <meta name="author" content="Vian Azis Tio Riwanto">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='external.css'>
+    <style>
+        h1 {
+            text-align: right;
+            font-size: 20pt
+        }
+    </style>
+</head>
+
+<body>
+    <!-- karena menggunakan eksternal style sheet dan terdapat internal
+        style sheet yang sama-sama memformat H1, maka akan menyebabkan 
+        beberapa elemen external style sheet diabaikan dan elemen internal
+        style sheet akan di prioritaskan, menghasilkan :
+        color: red; text-align: right; font-size: 20pt -->
+    <h1>Hello World!!</h1>
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tugas Form</title>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name="description" content="Web Programming">
+    <meta name="keywords" content="Tugas Form">
+    <meta name="author" content="Vian Azis Tio Riwanto">
+    <style>
+        body {
+            background-color: aliceblue;
+            color: darkslategray;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        
+        table {
+            border-color: dimgray;
+        }
+        
+        input[type=radio] {
+            zoom: 1.2;
+        }
+        
+        h2 {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <H2>BUKU TAMU</H2>
+    <P>Selamat dating di buku tamu website MyWebSite.com, silahkan meninggalkan jejak disini! </P>
+    <form action="" method="POST" name="BukuTamu">
+        <table border="0" cellpadding="10">
+            <tr>
+                <td width="30%">Nama</td>
+                <td width="70%"><input name="txtNama" type="text" id="txtNama" size="44"></input>
+                </td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>
+                    L <input name="radJenisKelamin" type="radio" value="1"> </input>
+                    &emsp; P <input name="radJenisKelamin" type="radio" value="2"> </input>
+                </td>
+            </tr>
+            <tr>
+                <td>Program Studi</td>
+                <td>
+                    A <input name="radProdi" type="radio" value="1"> </input>
+                    &emsp; B <input name="radProdi" type="radio" value="2"> </input>
+                    &emsp; C <input name="radProdi" type="radio" value="3"> </input>
+                    &emsp; D <input name="radProdi" type="radio" value="4"> </input>
+                </td>
+            </tr>
+            <tr>
+                <td>Alamat email </td>
+                <td><input name="txtAlamat" type="text" id="txtAlamat" size="44"></input>
+                </td>
+            </tr>
+            <tr>
+                <td>Alamat website </td>
+                <td><input name="txtWeb" type="text" id="txtWeb" size="44"></input>
+                </td>
+            </tr>
+            <tr>
+                <td>Pesan </td>
+                <td><textarea name="txtPesan" cols="42" rows="5" id="txtPesan"></textarea></td>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>

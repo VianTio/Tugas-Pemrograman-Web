@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML TABLE</title>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name="description" content="Web Programming">
+    <meta name="keywords" content="Membuat Tabel">
+    <meta name="author" content="Vian Azis Tio Riwanto">
+    <style>
+        body {
+            background-color: aliceblue;
+            color: darkslategray;
+        }
+        
+        table {
+            border-color: dimgray;
+            display: contents;
+        }
+    </style>
+</head>
+
+<body>
+    <p>1. Membuat table</p>
+    <table border="1">
+        <tr>
+            <td>Row 1, cell 1</td>
+            <td>Row 1, cell 2</td>
+            <td>Row 1, cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 2, cell 1</td>
+            <td>Row 2, cell 2</td>
+            <td>Row 2, cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 3, cell 1</td>
+            <td>Row 3, cell 2</td>
+            <td>Row 3, cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 4, cell 1</td>
+            <td>Row 4, cell 2</td>
+            <td>Row 4, cell 3</td>
+        </tr>
+    </table>
+    <br>
+
+    <p>2. Tabel Width </p>
+    <p>Menggunakan ukuran pixel</p>
+    <TABLE border="1">
+        <TR>
+            <TD WIDTH=200>Belajar</TD>
+            <TD WIDTH=400>HTML</TD>
+        </TR>
+        <TR>
+            <TD>Asik</TD>
+            <TD>dan</TD>
+        </TR>
+        <TR>
+            <TD>di</TD>
+            <TD>PHP</TD>
+        </TR>
+    </TABLE>
+
+    <p>Menggunakan ukuran persen</p>
+    <TABLE border="1">
+        <TR>
+            <TD WIDTH="30%">Belajar</TD>
+            <TD WIDTH="70%">Mudah</TD>
+        </TR>
+        <TR>
+            <TD>Asik</TD>
+            <TD>Menyenangkan</TD>
+        </TR>
+        <TR>
+            <TD>di</TD>
+            <TD>KlikBelajar.Com</TD>
+        </TR>
+    </TABLE>
+    <br>
+
+    <p>3. Table Bgcolor</p>
+    <table border="1">
+        <tr>
+            <td> Belajar </td>
+            <td BGCOLOR=red> dasar - dasar </td>
+        </tr>
+        <tr>
+            <td> HTML </td>
+            <td> dan PHP </td>
+        </tr>
+    </table>
+    <br>
+
+    <p>4. Table Colspan</p>
+    <TABLE border="1">
+        <TR>
+            <TD>Belajar</TD>
+            <TD COLSPAN="2">dasar</TD>
+            <TD>dasar</TD>
+        </TR>
+        <TR>
+            <TD>HTML</TD>
+            <TD>dan</TD>
+            <TD>PHP</TD>
+            <TD>dengan notepad</TD>
+        </TR>
+    </TABLE>
+    <br>
+
+    <p>5. Table Rowspan</p>
+    <TABLE border="1">
+        <TR>
+            <TD style="text-align:center">Belajar </TD>
+            <TD ROWSPAN="2" style="text-align:center">dasar - dasar</TD>
+            <TD style="text-align:center">HTML</TD>
+        </TR>
+        <TR>
+            <TD style="text-align:center">dan</TD>
+            <TD style="text-align:center">PHP dengan XAMPP</TD>
+        </TR>
+    </TABLE>
+    <br>
+
+    <p>6. Table penggabungan Colspan dan Rowspan</p>
+    <TABLE border="1">
+        <TR>
+            <TD colspan="4" style="text-align:center">Baris 1,colom 1,2,3 dan 4</TD>
+        </TR>
+        <TR>
+            <TD rowspan="3" style="text-align:center">baris 2,3 dan 4, colom 1</TD>
+            <TD style="text-align:center">baris 2, colom 2</TD>
+            <TD style="text-align:center">baris 2, colom 3</TD>
+            <TD rowspan="3" style="text-align:center">baris 2,3,dan4,colom 4</TD>
+        </TR>
+        <TR>
+            <TD style="text-align:center">baris 3, colom 2</TD>
+            <TD style="text-align:center">baris 3, colom 3</TD>
+        </TR>
+        <TR>
+            <TD style="text-align:center">baris 4, colom 2</TD>
+            <TD style="text-align:center">baris 4, colom 3</TD>
+        </TR>
+    </TABLE>
+
+</body>
+
+</html>
