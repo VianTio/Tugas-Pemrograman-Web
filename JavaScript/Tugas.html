@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tugas JavaScript</title>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name="description" content="Web Programming">
+    <meta name="keywords" content="Tugas JS">
+    <meta name="author" content="Vian Azis Tio Riwanto">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src="JSTugas.js">
+    </script>
+    <style>
+        body {
+            background-color: aliceblue;
+            color: darkslategray;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        
+        table {
+            border-color: dimgray;
+            display: contents;
+            table-layout: fixed;
+        }
+        
+        td {
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <H2>Registration Form</H2>
+    <form id="form1" method="POST" name="RegistrationForm" onsubmit="return false">
+        <table border="0" align="left">
+            <tr>
+                <td width="130"><label for="txtFName">First Name</label></td>
+                <td width="1">:</td>
+                <td width="260"><input name="txtFName" type="text" id="txtFName" size="44"></input>
+                </td>
+                <td width="220">
+                    <span id="container1"></span>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="txtLName">Last Name</label></td>
+                <td>:</td>
+                <td><input name="txtLName" type="text" id="txtLName" size="44"></input>
+                </td>
+                <td width="220">
+                    <span id="container2"></span>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="txtEmail">Email</label></td>
+                <td>:</td>
+                <td><input name="txtEmail" type="text" id="txtEmail" size="44"></input>
+                </td>
+                <td width="220">
+                    <span id="container3"></span>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="txtID">User Id</label></td>
+                <td>:</td>
+                <td><input name="txtID" type="text" id="txtID" size="44"></input>
+                </td>
+                <td width="220">
+                    <span id="container4"></span>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="txtPass">Password</label></td>
+                <td>:</td>
+                <td><input name="txtPass" type="text" id="txtPass" size="44"></input>
+                </td>
+                <td width="220">
+                    <span id="container5"></span>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="txtCPass">Confirm Password</label></td>
+                <td>:</td>
+                <td><input name="txtCPass" type="text" id="txtCPass" size="44"></input>
+                </td>
+                <td width="220">
+                    <span id="container6"></span>
+                </td>
+            </tr>
+
+            <tr>
+                <td><input type="submit" value="Create" onclick="tampil()"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
