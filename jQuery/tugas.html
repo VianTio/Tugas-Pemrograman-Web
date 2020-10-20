@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tugas jQuery Navigation</title>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name="description" content="jQuery Navigation">
+    <meta name="keywords" content="Tutorial">
+    <meta name="author" content="Vian Azis Tio Riwanto">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <style>
+        html {
+            min-height: 100%;
+            font-family: 'Nunito', sans-serif;
+            -webkit-font-smoothing: antialiased;
+        }
+        
+        body {
+            background: black;
+            line-height: 1.5;
+            color: white;
+            text-align: center;
+            margin: 0px;
+        }
+        
+        h1 {
+            font-weight: 200;
+            font-size: 3rem;
+            color: white;
+            text-align: center;
+        }
+        
+        .content {
+            padding: 10px;
+            margin: 0 auto;
+            padding: 4rem 0;
+            text-align: center;
+            color: #f1f1f1;
+        }
+        
+        .nav {
+            padding: 10px;
+            padding-bottom: 100px;
+            background: linear-gradient(to bottom right, #3D4258, #6670A0, #9688B4);
+            text-align: center;
+            color: #f1f1f1;
+        }
+        
+        .fixed-nav {
+            position: fixed;
+            padding: 10px;
+            padding-bottom: 0px;
+            width: 100%;
+            background: white;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="nav">
+        <h2>Navigation</h2>
+    </div>
+
+    <div class="content">
+        <p>Begin active state</p>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    </div>
+
+    <script>
+        $(window).scroll(function() {
+            if ($(window).scrollTop() > 1) {
+                $(".nav").fadeIn("slow").addClass("fixed-nav");
+
+            } else {
+                $(".nav").fadeIn("slow").removeClass("fixed-nav");
+            }
+        });
+    </script>
+
+</body>
+
+</html>
