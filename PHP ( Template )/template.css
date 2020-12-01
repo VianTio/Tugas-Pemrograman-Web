@@ -1,0 +1,103 @@
+/* header */
+
+header.title .overlay {
+    position: absolute;
+    height: 15rem;
+    width: 100%;
+    background-color: lightslategrey;
+}
+
+header.title .site-heading {
+    padding-top: 3.75rem;
+    color: aliceblue;
+}
+
+header.title .site-heading {
+    text-align: center;
+}
+
+header.title .site-heading h1 {
+    font-size: 50px;
+    margin-top: 0;
+}
+
+header.title .site-heading .subheading {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.1;
+    display: block;
+    margin-top: 10px;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+
+/* content */
+
+.content {
+    width: 100%;
+    padding-top: 10rem;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+
+/* sidebar menu */
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: ease-in-out;
+}
+
+.sidebar a {
+    padding: 12px 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: dimgray;
+    display: block;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar a:hover {
+    color: deepskyblue;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.other {
+    position: absolute;
+    top: auto;
+    text-align: justify;
+    font-size: 16px;
+    padding-top: 100%;
+    margin: 0px 25px;
+}
+
+.sidebar .other a {
+    padding: 0px;
+    text-decoration: none;
+    font-size: 16px;
+    color: dimgray;
+    display: block;
+    display: inline;
+}
+
+.sidebar .other a:hover {
+    color: deepskyblue;
+}
